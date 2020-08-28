@@ -10,6 +10,7 @@ input, select {
   padding: 1em;
   border-radius: .8em;
   text-align: center;
+  font-weight: 600;
 }
 
 input::placeholder {
@@ -38,4 +39,26 @@ a {
   color: #fff;
   width: 8vw;
   background-color: rgba(19, 15, 15, 0.644);
+}
+
+.results {
+  margin: 2em 0;
+}
+
+.results table {
+  text-align: left!important;
+  font-size: medium;
+}
+
+.information {
+  padding: 1em;
+}
+
+.title {
+  font-weight: 600;
+  color: #7fffd4;
+}
+
+.plot {
+  padding: 1em 0;
 }
