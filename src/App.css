@@ -31,6 +31,11 @@ a {
   align-items: center;
 }
 
+.row {
+  display: flex;
+  max-width: 75vw;;
+}
+
 .search-box input#title {
   width: 20vw;
 }
